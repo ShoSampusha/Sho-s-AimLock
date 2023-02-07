@@ -60,7 +60,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             if configs.main.notifications == true then
                 game.StarterGui:SetCore("SendNotification", {
                     Title = "Sho's Lock",
-                    Text = "you have hacks now  " .. tostring(Plr.Character.Humanoid.DisplayName)
+                    Text = "Locking:  " .. tostring(Plr.Character.Humanoid.DisplayName)
                 })
             end
         end
